@@ -1,0 +1,80 @@
+:root{
+    --main-color: #EAE8E1;
+    --main-font-color: #434343;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Crimson Text', serif;
+    background-color: var(--main-color);
+    margin: 0;
+    color: var(--main-font-color);
+    /* width: 100%; */
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/*Header section*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 2% 0;
+    height: auto;
+}
+
+.header__img{
+    width: 45vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.title-and-introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2.5%;
+    width:55vw;
+}
+
+#fangio-header{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* end of header section */
+.break{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.styled-break{
+    position: relative;
+    height: .5em;
+    border-top: 3px solid var(--main-font-color) ;
+    border-bottom: 1px solid var(--main-font-color);
+}
+
+.fangio-introduction{
+    text-align: left;
+    font-size: 1.5em;
+}
