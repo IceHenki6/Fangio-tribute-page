@@ -2,33 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Grape+Nuts&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Juan Manuel Fangio Tribute</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__img-container">
-        <img class="header__img" src="assets/Großer_Preis_von_Europa_-1954_Nürburgring,_Juan_Manuel_Fangio,_Mercedes_(3)x.JPG" alt="Fangio driving his Mercedes at the 1954 European Grand Prix at the Nuerburgring Nordschleife">
-        <p id="attribution">Photo by <a href="https://commons.wikimedia.org/wiki/User:Agridecumantes">Agridecumantes</a> <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></p>
-      </div>
+    <main id="main">
 
-      <div class="title-and-introduction">
-        <img  id="fangio-header" src="assets/Fangio.png" alt="picture of Juan Manuel Fangio">
-        <h1 class="main-title">Juan Manuel Fangio</h1>
-
-
-        <div class="break header-padding">
-          <div class="styled-break-header"></div>
+      <div class="header">
+        <div id="img-div">
+          <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Gro%C3%9Fer_Preis_von_Europa_-1954_N%C3%BCrburgring%2C_Juan_Manuel_Fangio%2C_Mercedes_%283%29x.JPG" alt="Fangio driving his Mercedes at the 1954 European Grand Prix at the Nuerburgring Nordschleife">
+          <p id="img-caption">Fangio at the 1954 European Grand Prix | Photo by <a href="https://commons.wikimedia.org/wiki/User:Agridecumantes">Agridecumantes</a> <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></p>
         </div>
   
-        <section class="fangio-introduction header-padding">
-          <p>Juan Manuel Fangio was an Argentine racing driver. He became a legend of motor racing winning five times the Formula One world championship in 1951, 1954, 1955, 1956, and 1957. He is the third driver with the most driver's championships. Only Michael Schumacher and Lewis Hamilton beat him,  with seven world titles. Fangio is also the driver with the highest win percentage of 47.06%
-          </p>
+        <section class="title-and-introduction">
+          
+          <img  id="fangio-photo" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Fangio.png" alt="picture of Juan Manuel Fangio">
+          <h1 id="title">Juan Manuel Fangio</h1>
+  
+  
+          <div class="break header-padding">
+            <div class="styled-break-header"></div>
+          </div>
+    
+          <section id="tribute-info" class="header-padding">
+            <p>Juan Manuel Fangio was an Argentine racing driver. He became a legend of motor racing winning five times the Formula One world championship in 1951, 1954, 1955, 1956, and 1957. He is the third driver with the most driver's championships. Only Michael Schumacher and Lewis Hamilton beat him,  with seven world titles. Fangio is also the driver with the highest win percentage of 47.06%
+            </p>
+          </section>
         </section>
       </div>
-    </header>
-    <main>
+
+
+
       <div class="early-years container">
         <h1 class="early-years__title">Early Years</h1>
         <p>Juan Manuel Fangio was born in the city of Balcarce, in Buenos Aires province, Argentina. Since he was a kid, he has shown great interest in cars. He started working as an assistant in a car workshop when he was 13. He would continue working as a mechanic in the following years. 
@@ -59,7 +65,7 @@
           <p class="years__description">The success of Fangio continued in 1955 alongside his powerful team Mercedes. This year he fought against his young and super talented teammate Stirling Moss. Fangio won 4 races: in Argentina, Spa, The Netherlands, and Monza. He managed to win his third world title, but sadly 1955 was the last year of Mercedes in motorsport. 
           </p>
           <p class="years__description">On the 11th of June of 1955, during the 24 hours of Le Mans race, a terrible accident occurred on the main straight, sending a car flying to the grandstands and killing around one hundred spectators. In this accident, Mike Hawthorn, Lance Macklin and two Mercedes drivers were involved. Pierre Levegh sadly lost his life in the accident, and Fangio miraculously avoided the crash.</p>
-          <p class="years__description">Fangio described the accident: “I saw everything, I was about to overtake the cars that crashed; Hawthorn, Macklin, and Levegh… The speed is around 250 km/h, 3 hours have passed since the start of the race, and It's time to change drivers. Hawthorn slows down and directs his car to the pit entry. He started the manoeuvre way before the 300m of the pit entry, in the correct way. Macklin opens up a bit, just enough to overtake Hawthorn, and an instant after Klint heads to the pit. Then Levegh, going very fast, tries to pass but finds no space; his Mercedes runs over Macklin's Austin rear. I cling to the steering wheel and wait for the hit that I don't know why never comes. My Mercedes goes by a hair caressing the Austin, that crossed on the track rips the asphalt with its bodywork… behind me, I leave hell.”</p>
+          <p class="years__description">Fangio described the accident:<em>“I saw everything, I was about to overtake the cars that crashed; Hawthorn, Macklin, and Levegh… The speed is around 250 km/h, 3 hours have passed since the start of the race, and It's time to change drivers. Hawthorn slows down and directs his car to the pit entry. He started the manoeuvre way before the 300m of the pit entry, in the correct way. Macklin opens up a bit, just enough to overtake Hawthorn, and an instant after Klint heads to the pit. Then Levegh, going very fast, tries to pass but finds no space; his Mercedes runs over Macklin's Austin rear. I cling to the steering wheel and wait for the hit that I don't know why never comes. My Mercedes goes by a hair caressing the Austin, that crossed on the track rips the asphalt with its bodywork… behind me, I leave hell.”</em></p>
           <div class="break">
             <div class="styled-break"></div>
           </div>
@@ -75,8 +81,11 @@
 
         <div>
           <h2 class="years__title">1957</h2>
-          <p class="years__description">In 1957, Fangio returned to Maserati and won 4 races, with the beautiful Maserati 250F. He wins in Argentina, Monaco, Reims (France), and at the Nuerburgring. This last race was called “The race of the century”. On the 4th of August, at the Nuerburgring, the longest circuit in the world with 22.810 km, Fangio made history again. He started the race from pole position with a 9:25.6 lap time. On lap 12, Fangio was leading the race by 30 seconds over the two Ferraris of Mike Hawthorn and Peter Collins. Fangio makes a pit stop to change tyres and refuel, the pit stop was a complete disaster. He lost 45 seconds to the Ferraris that were on a non-stop strategy. After that, there were ten laps to the end of the race, and Fangio had to recover all the time he lost on that pit stop if he wanted to win the race and the championship. Fangio gave one of the most amazing and legendary driving performances in racing history, breaking the lap record lap after lap and cutting the difference between him and the Ferraris. On the last lap, he managed to overtake the cars of Collins and Hawthorn to take the lead of the race and win his 24th and final Grand Prix in Formula One. He also won his 5th and last world championship. Fangio set the fastest lap with a 9:17.4, eight seconds faster than the pole position lap.
-            He described later on that in that race, he pushed over the limits and drove like never before. He said that he was never going to drive like that ever again.</p>
+          <p class="years__description">In 1957, Fangio returned to Maserati and won 4 races, with the beautiful Maserati 250F. He wins in Argentina, Monaco, Reims (France), and at the Nuerburgring. This last race was called “The race of the century”. On the 4th of August, at the Nuerburgring, the longest circuit in the world with 22.810 km, Fangio made history again. 
+          </p>
+          <p class="years__description">He started the race from pole position with a 9:25.6 lap time. On lap 12, Fangio was leading the race by 30 seconds over the two Ferraris of Mike Hawthorn and Peter Collins. Fangio makes a pit stop to change tyres and refuel, the pit stop was a complete disaster. He lost 45 seconds to the Ferraris that were on a non-stop strategy. After that, there were ten laps to the end of the race, and Fangio had to recover all the time he lost on that pit stop if he wanted to win the race and the championship. </p>
+          <p class="years__description">Fangio gave one of the most amazing and legendary driving performances in racing history, breaking the lap record lap after lap and cutting the difference between him and the Ferraris. On the last lap, he managed to overtake the cars of Collins and Hawthorn to take the lead of the race and win his 24th and final Grand Prix in Formula One. He also won his 5th and last world championship. Fangio set the fastest lap with a 9:17.4, eight seconds faster than the pole position lap.</p>
+          <p class="years__description">He described later on that in that race, he pushed over the limits and drove like never before. He said that he was never going to drive like that ever again.</p>
         </div>
       </section>
 
@@ -89,6 +98,8 @@
         <p>Fangio led the Argentinean team as a team director in 1969's 84 hours of Nuerburgring race. Fangio also received awards from various motorsports associations and countries for his feats in motor racing. In 1974 he was named president of Mercedes Benz Argentina, and in 1987 he became Honorary Lifetime President of Mercedes Benz Argentina.</p>
         <p>Fangio spent his last years in his home city of Balcarce in Argentina, surrounded by his friends.
           On the 17th of June 1995, at the age of 85, Juan Manuel Fangio passed away due to pneumonia. Fangio will always be remembered not only for his feats in motorsport and for being a legend on the racing track but also for being a true gentleman and a great person outside the racing track.</p>
+
+        <p>If you want to learn more about this legend, don't doubt to check the <a id="tribute-link" target="_blank" href="https://www.museofangio.com">Official Juan Manuel Fangio webpage.</a></p>
       </section>
       
     </main>
